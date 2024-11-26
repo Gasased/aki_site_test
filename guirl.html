@@ -8,7 +8,8 @@
     />
     <title>akimata</title>
     <style>
-      body, html {
+      body,
+      html {
         margin: 0;
         padding: 0;
         overflow: hidden; /* Prevent scrollbars */
@@ -21,9 +22,20 @@
         animation: gradientAnimation 10s ease infinite;
       }
       @keyframes gradientAnimation {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .header-image {
+        margin-top: 20px; /* Indentation from the top */
+        width: 800px; /* Adjust as needed */
+        height: auto; /* Maintain aspect ratio */
       }
       .vid {
         position: fixed;
@@ -58,7 +70,9 @@
       }
     </style>
   </head>
-  <body>
+  <body?>
+    <img src="cool_header.gif" alt="Header Image" class="header-image" />
+
     <video class="vid" id="backgroundVideo" autoplay muted>
       <source src="Akimata_sex1.mov" type="video/quicktime" />
       <source src="Akimata_sex1.webm" type="video/webm" />
@@ -84,5 +98,5 @@
         window.location.href = "index.html"; // Replace with your desired URL
       });
     </script>
-  </body>
+  </body?>
 </html>

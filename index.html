@@ -25,6 +25,11 @@
         50% { background-position: 100% 50%; }
         100% { background-position: 0% 50%; }
       }
+      .header-image {
+        margin-top: 20px; /* Indentation from the top */
+        width: 800px; /* Adjust as needed */
+        height: auto; /* Maintain aspect ratio */
+      }
       .vid {
         position: fixed;
         top: 0;
@@ -59,6 +64,9 @@
     </style>
   </head>
   <body?>
+    
+    <img src="cool_header.gif" alt="Header Image" class="header-image" />
+
     <video class="vid" id="backgroundVideo" autoplay muted>
       <source src="Akimata_lox4.mov" type="video/quicktime" />
       <source src="Akimata_lox4.webm" type="video/webm" />
